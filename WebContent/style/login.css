@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.main_box {
+    position: absolute; top:50%; left:50%; margin-top:-260px; margin-left: -300px; padding: 30px; width:600px; height:460px;
+	background:url(../images/login_bg.png);
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+}
+.main_box .setting {position: absolute; top: 5px; right: 10px; width: 10px; height: 10px;}
+.main_box .setting a {color: #FF6600;}
+.main_box .setting a:hover {color: #555;}
+.login_box { padding-top:50px;}
+.login_logo {margin-bottom: 20px; height: 45px; text-align: center;}
+.login_logo img {height: 60px;}
+.login_msg {text-align: center; font-size: 16px;}
+.login_form {padding-top: 20px; font-size: 16px;}
+.login_box .form-control {display: inline-block; *display: inline; zoom: 1; width: auto; font-size: 18px;}
+.login_box .form-control.x319 {width: 319px;}
+.login_box .form-control.x164 {width: 164px;}
+.login_box .form-group {margin-bottom: 20px;}
+.login_box .form-group label.t {width: 120px; text-align: right; cursor: pointer;}
+.login_box .form-group.space {padding-top: 15px; border-top: 1px #FFF dotted;}
+.login_box .form-group img {margin-top: 1px; height: 32px; width:110px; vertical-align: top;}
+.login_box .m {cursor: pointer;}
+.bottom {text-align: center; font-size: 12px;}
+
+
+.findMM {
+	padding:20px 40px;
+}
+
+.findMM td{
+	padding : 5px 0;
+}
+
+.label {
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	float:right;
+	color:#000;
+}
+
+.login_I {
+	border: 1px solid #a0b1c4;
+/*     border-radius: 10px; */
+    font-size: 16px;
+    height: 40px;
+   
+    outline: medium none;
+    padding-left: 10px;
+    width: 280px;
+}
+
+.verifycode,.verifytxt{
+	display:block;
+	float:left;
+}
+
+.verifycode{
+	border: 1px solid #a0b1c4;
+/*     border-radius: 10px 0 0 10px; */
+    font-size: 16px;
+    height: 40px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 136px;
+}
+.verifytxt{
+ 	border: 1px solid #a0b1c4;
+/*     border-radius: 0  10px 10px 0; */
+    height: 40px;
+    outline: medium none;
+	width:140px;
+	cursor:pointer;
+}
